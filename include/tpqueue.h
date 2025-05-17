@@ -56,6 +56,7 @@ class TPQueue {
     return head->data;
   }
 }
+
 struct SYM {
   bool isEmpty() const {
     return head == nullptr;
