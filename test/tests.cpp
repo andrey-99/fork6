@@ -3,6 +3,11 @@
 #include <string>
 #include "tpqueue.h"
 
+struct SYM {
+  char ch;
+  int prior;
+};
+
 TEST(lab7, test1) {
   TPQueue<SYM> pqueue;
   pqueue.push(SYM{'a', 4});
