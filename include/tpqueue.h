@@ -13,6 +13,7 @@ class TPQueue {
   };
   Node* head;
   Node* tail;
+
  public:
   TPQueue() : head(nullptr), tail(nullptr) {}
   ~TPQueue() {
