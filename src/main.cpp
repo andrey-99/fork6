@@ -2,10 +2,6 @@
 #include <iostream>
 #include "tpqueue.h"
 
-struct SYM {
-  char ch;
-  int prioritet;
-};
 int main() {
   TPQueue<SYM> pqueue;
   pqueue.push(SYM{'a', 4});
