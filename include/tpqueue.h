@@ -55,10 +55,12 @@ class TPQueue {
     if (!head) throw std::out_of_range("Queue is empty");
     return head->data;
   }
+}
 struct SYM {
   bool isEmpty() const {
     return head == nullptr;
   }
 };
+
 
 #endif  // INCLUDE_TPQUEUE_H_
